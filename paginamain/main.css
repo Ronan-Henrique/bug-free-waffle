@@ -4,6 +4,11 @@
   
 }
 
+:root{
+  --bg-color:red;
+  --color:black;
+}
+
 
 #cabecalho{
   background: rgb(2,0,36);
@@ -14,6 +19,8 @@
   height: 70px;
   text-decoration: none;
   background-color: none;
+  
+  
 }
 
 a {
@@ -22,9 +29,14 @@ a {
   margin: 50px;  
 }
 
+:root{
+
+}
+
 #principal{
-  
+  height: 600px;
   background-repeat: no-repeat;
+  
   
 }
 #imagem{
@@ -34,4 +46,40 @@ a {
   top: 0px;
   z-index: -1;
   background-size: contain;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px; 
+}
+
+#principais-main{
+  height: 800px;
+  display: flex;
+}
+#seriemain-1 seriemain-2 seriemain-3{
+  height: 200px;
+  width: 150px;
+  position: relative;
+  top: 8%;
+  left: 10%;
+  display: flex;
+  
+  
+}
+#series-main{
+  position: absolute;
+  top: 88%;
+  margin-left: 5%;
+  
+  height: 200px;
+}
+.series-main{
+  margin: 10px;
+  position: relative;
+  left: 4%;
+  top: 5%;
+}
+#cobrakai{
+  height: 230px;
+  width: 200px;
+  border-radius: 10px;
+  object-fit: fill;
 }
